@@ -1,0 +1,123 @@
+.duongdan{
+    margin-top:50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    line-height: 50px;
+}
+.duongdan .chu{
+  margin-left: 20px;
+}
+.duongdan a{
+    color: black;
+    text-decoration: none;
+}
+.duongdan .name{
+    font-weight: 700;
+}
+.bannertk{
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bannertk{
+    width: 100%;
+    background-color: white;
+}
+.bannertk .bannertk .banner{
+  position: relative;
+  box-shadow: unset 0 4px 8px 0 rgba(244, 244, 244, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.bannertk .banner{
+  width:100%;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200px;
+  background-image: url("//theme.hstatic.net/1000333436/1001040510/14/t-shirt_master.jpg?v=195");
+  box-shadow: 0px 0px 15px rgb(0,0,0.4);
+  background-position: center;
+  filter:brightness(80%);
+}
+.bannertk .tk{
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 45%;
+  color: white;
+  font-size: 25px;
+  font-weight: 700; 
+}
+.dangnhap{
+  width: 70%;
+  height: 300px;
+  margin: auto;
+}
+.dangnhap .font h2{
+  text-align: center;
+  padding: 30px 0 10px 0;
+  font-weight: 500;
+}
+.dangnhap .font form{
+  text-align: center;
+  height: 250px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+.dangnhap .font form input{
+  margin: 5px;
+  width: 350px;
+  height:40px;
+  padding: 0 10px;
+  border: none;
+  
+}
+.dangnhap .font form .inputsumit{
+  height: 35px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  outline: gainsboro;
+}
+.dangnhap .font form a{
+  text-decoration: none;
+  color: black;
+}
+/* user_detail */
+.container_user_detail{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0 0 0;
+}
+.container_user_detail h1{
+  font-size: 23px;
+  font-weight: 500;
+}
+.content-left-user-detail p{
+  margin-top: 20px;
+}
+.content-right-user-detail h1{
+  margin: 0 0 20px 0;
+}
+.content-right-user-detail form div{
+  margin: 0 0 20px 0;
+}
+.content-right-user-detail form div input{
+  width: 230px;
+  height: 30px;
+}
+.content-right-user-detail form div p{
+  margin: 0 0 10px 0;
+}
+.content-right-user-detail form div .input_submit{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}

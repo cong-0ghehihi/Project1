@@ -1,0 +1,114 @@
+#table_sta{
+   width: 100%;
+   border-collapse: collapse;
+   margin: 20px 0;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   border-radius: 8px;
+   overflow: hidden;
+ }
+ #table_sta thead tr{
+   background-color: #25bc7c;
+   height: 50px;
+   color: #ffffff;
+ }
+ #table_sta td {
+ padding: 12px 15px;
+ }
+ #table_sta tr {
+ border-bottom: 1px solid #dddddd;
+ }
+
+ #table_sta tr:nth-of-type(even) {
+     background-color: #eee4e4;
+ }
+ #table_sta tr.active-row {
+ font-weight: bold;
+ color: #009879;
+ }
+ #btn_bd {
+         display: inline-block;
+         padding: 12px 24px;
+         font-size: 16px;
+         font-weight: bold;
+         text-align: center;
+         text-decoration: none;
+         cursor: pointer;
+         border-radius: 8px;
+         color: #fff;
+         background-color: #2ecc71;
+         border: 2px solid #2ecc71;
+         transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+     }
+
+     /* Hover effect */
+     #btn_bd:hover {
+         background-color: #27ae60;
+         border-color: #27ae60;
+     }
+
+ #form_pro {
+     /* background-color: #2ecc71; */
+     padding-left: 5px;
+     border-radius: 10px;
+     height: 37.333px;
+     /* text-align: center; */
+ }
+ #form_pro select {
+     padding: 5px 0;
+     margin-right: 5px;
+     border-radius: 5px;
+     height: 37.333px;
+     width: 105px;
+     background-color: #25bc7c;
+     color: #ffffff;
+     font-weight: 600;
+     border: none;
+ }
+ #form_pro input[type="submit"] {
+     padding: 5px 20px;
+     border-radius: 5px;
+     background-color: #25bc7c; 
+     height: 37.333px;
+     color: #fff;
+     cursor: pointer;
+     transition: background-color 0.3s, color 0.3s;
+     border: none;
+ }
+ #form_pro input[type="submit"]:hover {
+     background-color: #1a8255; 
+ }
+ #form-pro-all{
+   display: flex;
+ }
+ .btn-pro{
+   width: 100px;
+   margin-top: 7px;
+ }
+ #bgc-hd{
+   background-color:#d1e0d9;
+ }
+ #dropdownbtn{
+ color: black;
+ cursor:pointer;
+ position:relative;
+ padding:5px 10px;
+ transition:all 1s;
+ 
+&:after,&:before{
+ content:" ";
+ width:0px;
+ height:0px;
+ position:absolute;
+ transition:all 1s;
+ }
+&:before{
+ bottom:-7px;
+ right:-1px;
+ border-bottom:1px solid rgb(0, 0, 0);
+ 
+}
+&:hover{
+ &:before,&:after{   
+ width:100%;
+ height:100%;
+}}}

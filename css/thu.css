@@ -1,0 +1,281 @@
+
+.container1{
+  max-width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  margin-top: 50px;
+}
+.container1 .infor{
+  margin-left: 250px;
+  max-width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container1 .infor .so1{
+  padding: 40px 20px;
+}
+.container1 .tinhtien{
+  border-left: 1px solid gainsboro;
+  width: 100%;
+  background-color:rgb(247, 247, 247) ;
+}
+.container1 .tinhtien .so2{
+  padding: 40px 20px;
+  width: 65%;
+}
+.infor .rich{
+  font-size: 25px;
+  font-weight: 300;
+  width: 90%;
+}
+.infor .dr{
+  margin: 10px 0px 12px 0;
+  font-size: x-small;
+}
+.infor .dr a{
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+.infor .tt{
+  font-size: 18px;
+}
+.infor .tk{
+  display: flex;
+  margin: 10px 0;
+}
+.infor .tk img{
+  border-radius: 10px;
+}
+.infor .tk .tkct{
+  font-size: 13px;
+  padding: 5px 0 5px 6px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 92%;
+}
+.infor .tkct a{
+  text-decoration: none;
+  color: #338dbc;
+}
+.infor .thongtinvc .from-inp{
+  margin: 0 0 10px 0;
+}
+.infor .thongtinvc .form-input{
+  width: 85%;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: .5px solid rgb(205, 205, 205);
+  padding: 0px 10px;
+  padding-top: 15px;
+  transition: .3s ease;   
+  outline: none;
+  font-size: 14px;
+  color: black;
+}
+.infor .thongtinvc .form-input0{
+  width: 85%;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: .5px solid rgb(205, 205, 205);
+  padding: 0px 5px;
+  padding-top: 15px;
+  transition: .3s ease;
+
+  outline: none;
+}
+.infor .thongtinvc .form-input:focus{
+  border-color: rgb(198, 198, 198);
+  padding: 0 53px 0 10px;
+  padding-top: 12px;
+  font-size: 17px;
+  outline: #ffffff;
+  border: #ffffff;
+  box-shadow: 1px 5px 10px rgb(160, 160, 160);
+}
+.infor .thongtinvc .form-label0{
+  color: #9a9a9a;
+  position: absolute;
+  transform: translateY(-50%) ;
+  left: 278px;
+  top: 280px;
+  user-select: none; /* không thể chọn vào thẻ label */
+  pointer-events: none;
+  transition: .5s ease;
+  font-size: 10px;
+}
+.infor .thongtinvc .form-label1{
+  color: #999;
+  position: absolute;
+  top:290px;
+  transform: translateY(-50%) ;
+  left: 278px;
+  user-select: none; /* không thể chọn vào thẻ label */
+  pointer-events: none;
+  transition: .5s ease
+}
+.infor .thongtinvc .form-label2{
+  color: #999;
+  position: absolute;
+  top:330px;
+  transform: translateY(-50%) ;
+  left: 278px;
+  user-select: none; /* không thể chọn vào thẻ label */
+  pointer-events: none;
+  transition: .5s ease
+}
+.infor .thongtinvc .form-label3{
+  color: #999;
+  position: absolute;
+  top:378px;
+  transform: translateY(-50%) ;
+  left: 278px;
+  user-select: none; /* không thể chọn vào thẻ label */
+  pointer-events: none;
+  transition: .5s ease
+}
+.infor .thongtinvc .form-input:not(:placeholder-shown) + .form-label1,
+.infor .thongtinvc .form-input:focus + .form-label1{
+  color: rgb(145, 145, 145);
+  top:272px;
+  font-size: small;
+  transition: .4s ease;
+}
+.infor .thongtinvc .form-input:not(:placeholder-shown) + .form-label2,
+.infor .thongtinvc .form-input:focus + .form-label2{
+  color: rgb(145, 145, 145);
+  top:320px;
+  font-size: small;
+  transition: .4s ease;
+}
+.infor .thongtinvc .form-input:not(:placeholder-shown) + .form-label3,
+.infor .thongtinvc .form-input:focus + .form-label3{
+  color: rgb(145, 145, 145);
+  top:368px;
+  font-size: small;
+  transition: .4s ease;
+}
+.infor .phuongthuctt{
+  margin-top: 5px;
+  border: 1px solid gainsboro;
+  width: 85%;
+  display: flex;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: #6e6e6e;
+  font-size: small;
+}
+.container1 h4{
+  margin-top: 60px;
+  font-weight: 300;
+}
+.infor .phuongthuctt img{
+  margin: 13px 5px;
+}
+.inf238or .phuongthuctt input{
+  background-color: #338dbc;
+}
+.infor .dathang{
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+.infor .dathang a{
+  text-decoration: none;
+  font-size: small;
+  color: #338dbc;
+  line-height: 40px;
+}
+.infor .dathang input{
+  width: 50%;
+  height: 50px;
+  margin-left: 60px;
+  background-color: #338dbc;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px -1px 10px gainsboro;
+  color: white;
+}
+.infor .nvc{
+  width: 100%;
+  height: 30px;
+}
+.infor .nvc p{
+  line-height: 30px;
+  text-align: center;
+  font-weight: 100;
+ background: g;
+}
+.tinhtien .thongtinsanpham{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border-bottom:.5px solid gainsboro ;
+}
+.tinhtien .thongtinsanpham .anh{
+  width: 61px;
+  height: 60px;
+  border:1px #999 solid;
+  border-radius: 5px;
+  margin: 0 2px;
+  
+}
+.tinhtien .thongtinsanpham img{
+  width: 40px;
+  height: 58px;
+  margin-left: 10px;
+}
+.tinhtien .thongtinsanpham .sl{
+  position: absolute;
+  padding:  2px 6px;
+  background-color: rgb(147, 147, 147);
+  border-radius: 100%;
+  color:white;
+  font-size: small;
+  top: 48px;
+  box-shadow: 1px -1px 10px gainsboro;
+}
+.tinhtien .thongtinsanpham .tensp{
+  margin-top: 17px;
+  padding: 0 12px;
+  font-size: small;
+}
+.tinhtien .thongtinsanpham .tensp .s{
+  font-size: x-small;
+  margin-top: 4px;
+  color: #9a9a9a;
+}
+
+.tinhtien .thongtinsanpham .gia{
+  font-size: small;
+  margin: 25px 0 0 50px;
+}
+.tinhtien .tamtinh{
+  display: flex;
+  margin: 25px 0;
+  color: rgb(88, 87, 87);
+  justify-content:space-between;
+}
+.tinhtien .tamtinh .tt{
+  font-size: 13px;
+}
+.tinhtien .tongtien{
+  border-top:.5px solid gainsboro ;
+  display: flex;
+  padding: 25px 0;
+  color: rgb(88, 87, 87);
+  justify-content:space-between;
+}
+.tinhtien .tongtien .dongia{
+  font-size: small;
+}
+.tinhtien .chuy{
+  font-size: 12px;
+  color: rgb(88, 87, 87);
+}
